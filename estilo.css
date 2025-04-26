@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.invalid {
+    border-color: red;
+}
+.valid {
+    border-color: green;
+}
+.catalog-list {
+    margin-top: 20px;
+}
+.catalog-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.catalog-item img {
+    border-radius: 5px;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.catalog-item h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+.catalog-item p {
+    font-size: 0.9em;
+    margin: 3px 0;
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.remove-btn, .edit-btn {
+    width: 70px;
+    padding: 6px;
+    font-size: 0.75em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+}
+.remove-btn:hover {
+    background-color: #d32f2f;
+}
+.edit-btn {
+    background-color: #2196F3;
+    color: white;
+}
+.edit-btn:hover {
+    background-color: #1976D2;
+}
